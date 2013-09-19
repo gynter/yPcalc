@@ -1,0 +1,16 @@
+# Other.
+*.orig
+*.core
+*.rej
+*~
+*.swp
+*.log
+*.tmp
+*.bak
+.*\#.*\#$
+
+# Build.
+build/
+dist/
+src/yPcalc.egg-info/
+*.pyc

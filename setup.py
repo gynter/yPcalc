@@ -5,7 +5,7 @@ from setuptools import setup
 
 
 setup(name='yPcalc',
-      version='0.1b',
+      version='0.1-beta.1',
       description='An IPv4 and IPv6 subnet calculator',
       long_description='An IPv4 and IPv6 subnet calculator',
       keywords=['ipv4', 'ipv6', 'subnet', 'calculator', 'network'],

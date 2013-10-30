@@ -3,20 +3,28 @@ yPcalc - An IPv4 and IPv6 subnet calculator
 ========================================================================
 ------------------------------------------------------------------------
 
-1.  Requirements
-2.  Installation
-3.  Usage
-4.  License
-5.  Support
-6.  Authors
+1.  Description
+2.  Requirements
+3.  Installation
+4.  Usage
+5.  License
+6.  Support
+7.  Authors
 
-1. Requirements
+1. Description
+--------------
+
+yPcalc is a simple Python based IPv4 and IPv6 calculator. It's output
+is easy to parse which makes it possible to intergrate it to shell
+scripts.
+
+2. Requirements
 ---------------
 
-- Python 2.7;
-- Python `ipcalc` module.
+- Python 2.7 (<http://python.org>);
+- Python `ipcalc` module (<https://pypi.python.org/pypi/ipcalc>).
 
-2. Installation
+3. Installation
 ---------------
 
 - Download and install [ipcalc](https://pypi.python.org/pypi/ipcalc/)
@@ -26,15 +34,15 @@ install it by running the setup script in command prompt:
 
         $ python setup.py install
 
-- Download the latest release from 
-<https://github.com/gynter/yPcalc/releases>
+- Download the latest release from
+<https://github.com/gynter/yPcalc/releases/latest>
 and extract the archive to the chosen destination directory.
 
-    Development files can be browsed via web browser or can be optained 
+    Development files can be browsed via web browser or can be optained
     from a git repository <https://github.com/gynter/yPcalc>.
 
-    *Note: You can also get the sources using the 
-    [GIT](http://git-scm.com/book/en/Getting-Started-Installing-Git) and 
+    *Note: You can also get the sources using the
+    [GIT](http://git-scm.com/book/en/Getting-Started-Installing-Git) and
     cloning the `https://github.com/gynter/yPcalc.git` repository.*
 
 - Install it by running the the setup script in command prompt:
@@ -44,7 +52,7 @@ and extract the archive to the chosen destination directory.
 *Note: You must have administrator/super user privileges
 for the installation.*
 
-3. Usage
+4. Usage
 --------
 
 yPcalc is a command line software, therefore all actions are performed
@@ -74,7 +82,7 @@ It has two commands:
 See `ypcalc {command} -h` for command specific arguments.
 
 IPv4 examples:
-    
+   
     $ ypcalc show 192.0.3.171/27
     Address:     192.0.3.171
     Netmask:     255.255.255.224 = 27
@@ -92,7 +100,6 @@ IPv4 examples:
 
     $ ypcalc check 192.0.3.192 192.0.3.171/27
     ypcalc: error: IP 192.0.3.192 does not exist in network 192.0.3.171/27
-
 
 IPv6 examples:
 
@@ -122,21 +129,21 @@ without the caption prefix:
 The values are ordered as shown in `ypcalc show -h` regardless of the
 sequence of the arguments.
 
-4. License
+5. License
 ----------
 
-This software is licensed as described in the file `LICENSE.md`, which 
-You should have received as part of this distribution. The terms are 
-also available at 
+This software is licensed as described in the file `LICENSE.md`, which
+You should have received as part of this distribution. The terms are
+also available at
 <https://github.com/gynter/yPcalc/blob/master/LICENSE.md>.
 
-5. Support
+6. Support
 ----------
 
-Issue tracker can be found at 
+Issue tracker can be found at
 <https://github.com/gynter/yPcalc/issues>.
 
-6. Authors
+7. Authors
 ----------
 
 - Günter Kits (gynter@kits.ee)

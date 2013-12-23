@@ -32,7 +32,7 @@ from copy import copy
 import argparse
 
 __PROGRAM__ = "yPcalc"
-__VERSION__ = "0.1-beta.1"
+__VERSION__ = "0.1.0-beta.2"
 __DESCRIPTION__ = "An IPv4 and IPv6 subnet calculator."
 __EXECUTABLE__ = basename(sys.argv[0])
 

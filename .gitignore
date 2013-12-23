@@ -12,5 +12,8 @@
 # Build.
 build/
 dist/
+
+# Project and programming language.
 src/yPcalc.egg-info/
 *.pyc
+*.egg

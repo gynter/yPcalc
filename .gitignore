@@ -17,3 +17,4 @@ dist/
 src/yPcalc.egg-info/
 *.pyc
 *.egg
+distribute-*.tar.gz

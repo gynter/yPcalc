@@ -110,7 +110,7 @@ def command_show(args):
     filters = [
         ('Address', n, IP(str(n)), 0),
         ('Netmask', "%s = %s" % (n.netmask(), n.mask), n.netmask(), 0),
-        ('Network', "%s/%s" % (n.network(), n.mask), n.network(), 4),
+        ('Network', "%s/%s" % (n.network(), n.mask), n.network(), 0),
         ('HostMin', n.host_first(), True, 0),
         ('HostMax', n.host_last(), True, 0),
         ('Broadcast', n.broadcast(), True, 4),

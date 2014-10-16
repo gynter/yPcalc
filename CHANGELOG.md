@@ -4,7 +4,8 @@ CHANGELOG yPcalc
 ------------------------------------------------------------------------
 
 - Pushed year to 2014 in LICENSE.md and headers;
-- Upgraded Distribute installation script (ez_setup).
+- Upgraded Distribute installation script (ez_setup);
+- Added Network to IPv6 output.
 
 v0.1.0-beta.3 (2013-12-23)
 --------------------------

@@ -14,7 +14,7 @@ def fopen(f):
 
 
 setup(name='yPcalc',
-    version='0.1.0-beta.3',
+    version='0.1.0-beta.4',
     description='An IPv4 and IPv6 subnet calculator.',
     long_description=fopen("README.md"),
     keywords=['ipv4', 'ipv6', 'subnet', 'calculator', 'network'],

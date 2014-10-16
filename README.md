@@ -106,6 +106,7 @@ IPv6 examples:
     $ ypcalc show 2002:c000:022a::/29
     Address:     2002:c000:022a:0000:0000:0000:0000:0000
     Netmask:     ffff:fff8:0000:0000:0000:0000:0000:0000 = 29
+    Network:     2002:c000:0000:0000:0000:0000:0000:0000/29
     HostMin:     2002:c000:0000:0000:0000:0000:0000:0001
     HostMax:     2002:c007:ffff:ffff:ffff:ffff:ffff:fffe
     Hosts/Net:   633825300114114700748351602688 GEO-UNICAST

@@ -14,7 +14,7 @@ def fopen(f):
 
 
 setup(name='yPcalc',
-    version='0.1.0-beta.5',
+    version='1.0.0',
     description='An IPv4 and IPv6 subnet calculator.',
     long_description=fopen("README.md"),
     keywords=['ipv4', 'ipv6', 'subnet', 'calculator', 'network'],
@@ -30,7 +30,6 @@ setup(name='yPcalc',
     provides=['yPcalc'],
     platforms=['all'],
     classifiers=[
-        "Development Status :: 4 - Beta",
         "Topic :: Utilities",
         "Topic :: System :: Networking",
         "License :: OSI Approved :: MIT License",
